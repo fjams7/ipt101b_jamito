@@ -5,7 +5,7 @@
         html {font-family:"century gothic";}
         body {text-align:center; background-color: #E4D0D0;}
         input {
-            width: 300px;
+            width: 400px;
             padding: 0.1px 10px;
             margin: 4px 0;
             box-sizing: border-box;
@@ -25,7 +25,7 @@
         }
         label {
             display: inline-block;
-            width: 300px;
+            width: 400px;
             text-align: left;
         }
         h1 {font-size: 30px;}
@@ -40,9 +40,9 @@
             <hr><br>
         <form action="account.php" method="POST">
             <label for="fname">First Name</label> <br>
-                <input type="text" name="fname" id="fname" pattern="[A-Za-z]+" title="Letters only" required> <br><br>
+                <input type="text" name="fname" id="fname" required> <br><br>
             <label for="fname">Last Name</label> <br>
-                <input type="text" name="sname" id="sname" pattern="[A-Za-z]+" title="Letters only" required> <br><br>
+                <input type="text" name="sname" id="sname" required> <br><br>
             <label for="email">Email Address</label> <br>
                 <input type="email" name="email" id="email" maxlength="30" required> <br><br>
             <label for="pwd">Password</label> <br>
