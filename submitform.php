@@ -44,7 +44,7 @@
             <label for="fname">Last Name</label> <br>
                 <input type="text" name="sname" id="sname" required> <br><br>
             <label for="email">Email Address</label> <br>
-                <input type="email" name="email" id="email" maxlength="30" required> <br><br>
+                <input type="email" name="email" id="email" maxlength="50" required> <br><br>
             <label for="pwd">Password</label> <br>
                 <input type="password" name="pwd" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" maxlength="30" title="Must contain at least one number,one uppercase and lowercase letter, and at least 8 or more characters" required> <br><br>
             <label for="cpwd">Confirm Password</label> <br>
