@@ -21,7 +21,7 @@
 <body>
     <p>
         <?php
-        if (!empty($_POST)) {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $name = $_POST["fname"].' '.$_POST["sname"];
             $email = $_POST["email"];
             $len = strlen($_POST["pwd"]);
